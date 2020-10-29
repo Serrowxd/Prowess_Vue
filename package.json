@@ -1,0 +1,21 @@
+{
+  "name": "Prowess_Vue",
+  "version": "1.0.0",
+  "description": "Prowess Guild Website, in the flavor of VueJS",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "less-watch-compiler styles styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serrowxd/Prowess_Vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serrowxd/Prowess_Vue/issues"
+  },
+  "homepage": "https://github.com/Serrowxd/Prowess_Vue#readme"
+}
