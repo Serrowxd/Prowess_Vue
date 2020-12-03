@@ -71,19 +71,24 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 30rem;
+  width: 100%;
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
 }
 .prog-container img {
   position: absolute;
   z-index: 0;
+}
+.prog-container .layer {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .prog-block {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 50%;
+  width: 100%;
   z-index: 4;
   color: white;
   height: 75%;
@@ -109,6 +114,7 @@ body {
   font-size: 1.75rem;
   padding: 1rem 2rem;
 }
-.spacer {
-  width: 100%;
+.content-container {
+  display: flex;
+  height: 100vh;
 }
